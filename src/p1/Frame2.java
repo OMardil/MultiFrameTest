@@ -12,7 +12,7 @@ public class Frame2 extends JFrame {
 	private JPanel contentPane;
 
 
-	public Frame2(String labelText) {
+	public Frame2(String pokemonName) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -21,7 +21,7 @@ public class Frame2 extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel(labelText);
+		JLabel lblNewLabel = new JLabel(pokemonName);
 		lblNewLabel.setBounds(189, 94, 47, 14);
 		contentPane.add(lblNewLabel);
 		this.setVisible(true);
